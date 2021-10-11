@@ -1,0 +1,191 @@
+body{
+   background-color: #000;
+   color: #fff;
+}
+
+a{
+ color: white;
+}
+
+.transition {
+ 
+   /* animation: transition 4s 1; */
+    z-index: 1510;
+    transition: all 0.5s cubic-bezier(.19,1,.22,1) 0.2s;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    overflow: hidden;
+}
+.transition ul{
+ 
+      list-style: none;
+    margin: 0;
+    float: right;
+    box-sizing: border-box;
+    transition: all 0.45s cubic-bezier(.195,.29,.045,.995);
+    margin-right: -125px;
+}
+
+.transition ul li{
+    margin-left: 15px;
+    pointer-events: auto;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 25px;
+}
+
+nav h2{
+    padding-left: 55px;
+}
+nav ul{
+    padding-right: 40px;
+    float: right;
+}
+
+nav li {
+    padding-left: 25px;
+    
+}
+
+.d-flex{
+    display: flex;
+}
+
+.sec1{
+ margin-left: 45%;
+ margin-top: 80px;
+
+}
+
+.sec1 h5{
+
+  color: #ffffff7A;
+}
+
+.sec1 span{
+      font-weight: bold;
+}
+
+
+.sec1 p{
+    font-size: 30px;  
+    /* padding-left: 60px; */
+    line-height: 1.5em;
+
+}
+
+.sec1 a{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sec1 a:hover{
+    color: #ffffff7A;
+}
+
+
+/* section2 */
+.title{
+    color: #ffffff7A;  
+}
+.photogallery-main {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.photogallery-collumn {
+  display: flex;
+  flex-direction: column;
+   
+}
+
+.photogallery-row {
+  display: flex;
+}
+
+.photogallery-individual-box {
+  width: 400px;
+  padding-bottom: 20px;
+
+}
+
+.photogallery-individual-box img {
+  width: 350px;
+  height: 230px;
+  object-fit: cover;
+  transition:  10s ease-in-out;
+  
+
+}
+
+
+
+footer{
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  
+}
+
+footer p{
+     color: #ffffff7A; 
+}
+
+footer div{
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left: -58px ;
+    font-size: 13px;
+    margin-top: -21px;
+     
+}
+
+footer div li{
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 20px;
+   
+}
+
+footer ul li a{
+    color: #ffffff7A; 
+    text-decoration: none;
+}
+
+.footer-facebook:hover{
+   color: blue;
+}
+
+.footer-twitter:hover{
+    color: cornflowerblue;
+}
+
+.footer-insta:hover{
+    color: burlywood;
+}
+
+.footer-drib:hover{
+    color: palevioletred;
+}
+.footer-span{
+    text-decoration: underline;
+}
+
+.footer-span:hover{
+    color: #fff;
+}
